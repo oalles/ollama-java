@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ollama-test
+
+application:
+  model-name: 'mistral:latest'
+
+# Ollama service configuration - ollama java client starter
+ollama:
+  base-url: 'http://localhost:11434'
+  call-timeout: 0
+  connect-timeout: 0
+  read-timeout: 0
+  write-timeout: 0
+
