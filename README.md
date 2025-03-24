@@ -67,7 +67,7 @@ public interface StreamResponseProcessor<T> {
 
 Just create an instance of the `OllamaService` with the factory and use it.
 
-Have a look at [here](src/test/java/es/omarall/ollama/HowToUse.java)
+Have a look at [here](./ollama-java-client/src/test/java/es/omarall/ollama/HowToUse.java)
 
 or have a look at the [spring-boot-ollama-sample](spring-boot-ollama-sample) project.
 
